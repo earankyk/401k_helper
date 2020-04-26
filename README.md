@@ -1,4 +1,4 @@
-# To 401k or not to 401k
+# [To 401k or not to 401k](https://www.401k-helper.kearanky.com/)
 
 As an immigrant in the US, I wasn't sure if I should invest my money in a tax advantaged account (401k/IRA) or an after tax brokerage account. It's a no-brainer to invest using a tax-advantaged account if you expect to be in the US by the time you're 65, however as immigrants on worker visas we rarely know if that's the case.  
 

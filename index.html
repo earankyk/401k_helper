@@ -7,13 +7,15 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body onload="displayBarChart();">
+  <h1>To 401k or not to 401k</h1>
+  <h3>Compare tax-advantaged investment returns with after tax investment returns</h3>
   <div class="form-inline">
     <form>
-      <label for="pre_tax_amount">Pre-tax investment amount (per year):</label><br>
+      <label for="pre_tax_amount">Pre-tax investment amount ($ per year)</label><br>
       <input value=42000 id="pre_tax_amount" required><br>
       <label for="expected_cagr">Expected CAGR (%)</label><br>
       <input type="text" id="expected_cagr" value=7 required><br>
-      <label for="contribution_limit">401k contribution limit</label><br>
+      <label for="contribution_limit">401k contribution limit ($ per year)</label><br>
       <input type="text" id="contribution_limit" value=19000 required><br>
       <label for="total_income_tax_rate">Income tax rate (%)</label><br>
       <input type="text" id="total_income_tax_rate" value=31 required><br>
@@ -24,9 +26,10 @@
       <input type="button" value="Compare Returns" onclick="displayBarChart()">
     </form>
   </div>
-  <div class="box">
-    <canvas id="barChart" height="450" width="800"></canvas>
+  <div class="chart">
+    <canvas id="barChart"></canvas>
   </div>
+  <h4>Feel free to use this <a href="https://github.com/earankyk/401k_helper">source</a> as your own starting point for building your own comparisions!</h4>
   <script src="script.js"></script>
 </body>
 </html>

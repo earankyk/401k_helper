@@ -68,6 +68,12 @@
                     return value.toLocaleString("en-US",{style:"currency", currency:"USD"});
                   }
                 }
+              }],
+              xAxes: [{
+                scaleLabel: {
+                  display: true,
+                  labelString: 'No. of years invested'
+                }
               }]
             }
           }

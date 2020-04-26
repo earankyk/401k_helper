@@ -3,6 +3,17 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    float:left;
+    width:20%;
+    margin-left:5%;
+    margin-top:20px;
+  }
+
+  .chart {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 5%;
+    /* overflow:hidden; */
   }
   
   /* Add some margins for each label */
@@ -34,12 +45,25 @@
   
   /* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
   @media (max-width: 800px) {
-    .form-inline input {
+    /* .form-inline input {
       margin: 10px 0;
+    } */
+    .flex-direction{
+      flex-direction:column;
     }
   
     .form-inline {
       flex-direction: column;
-      align-items: stretch;
+      float:none;
+      /* align-items: stretch; */
+    }
+    .chart {
+      margin-left:0;
+      margin-right:0;
+      min-width:600px;
     }
   } 
+
+  H1 { text-align: center }
+  H3 { text-align: center }
+  H4 { text-align: center }
